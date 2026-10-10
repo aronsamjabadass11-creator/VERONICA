@@ -1,0 +1,9 @@
+# Core VERONICA Dependencies
+groq>=1.7.0
+python-dotenv>=1.2.3
+
+# Neural Voice & Speech Subsystems (Edge Neural TTS & STT)
+edge-tts>=7.2.0
+pyttsx3>=2.99
+SpeechRecognition>=3.17.0
+sounddevice>=0.5.0

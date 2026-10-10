@@ -1,0 +1,118 @@
+# ==============================================================================
+# VERONICA - Git Ignore Configuration
+# ==============================================================================
+
+# --- Environment Variables & Secrets (NEVER COMMIT) ---
+.env
+.env.*
+!.env.example
+*.env
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Python Cache & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# --- Distribution / Packaging ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# --- Type Checking & Linting ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# --- Application Logs & Runtime Data ---
+*.log
+logs/
+data/*.log
+data/temp_audio/
+data/memory.json
+
+# --- Media & Generated Audio ---
+*.mp3
+*.wav
+*.m4a
+*.ogg
+voice_test.mp3
+
+# --- Backup Dirs & Temporary Files ---
+*_backup/
+*_backup*/
+*_backup.py
+*backup*.py
+main_backup.py
+*.bak
+*.swp
+*.swo
+*~
+*.tmp
+
+# --- IDEs & Local Configurations ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# --- Operating System Files ---
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
